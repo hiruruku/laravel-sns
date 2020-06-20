@@ -214,4 +214,5 @@ dist/
 ## custom
 data/
 backup/
+.gitmodules
 # End of https://www.gitignore.io/api/lamp,vuejs,macos,laravel,phpstorm+all,visualstudiocode
