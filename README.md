@@ -41,10 +41,12 @@ cp env-example .env
  - 設定ファイルは、docker-compose.yml
  - .envファイルに各変数を設定する
 
-###　DBにPostgreSQLを使用したい場合 laradock/docker-compose.ymlも調整
+### DBにPostgreSQLを使用したい場合 laradock/docker-compose.ymlも調整
+
  - postgreSQL使用の場合、docker-compose.ymlを編集する必要があるので別ブランチを切る。
  - terminalで`docker create volume pg-vol`(確認：docker volume ls)
  - docker-compose.ymlを編集する
+
 ```yml
     volumes:
       pg-vol: 
