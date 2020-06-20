@@ -37,7 +37,7 @@ cp env-example .env
 
 
 ## Dockerで開発環境起動
- - docker-composeによりdaemon立ち上げ。
+ - docker-composeにより各コンテナ立ち上げ。
  - 設定ファイルは、docker-compose.yml
  - .envファイルに各変数を設定する
 
