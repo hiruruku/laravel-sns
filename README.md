@@ -3,7 +3,7 @@
 ## laradock開発環境設定（laravelインストール）
 
 ### 環境
- - Windows 10 Pro:Docker For Windows/
+ - Windows 10 Pro:Docker For Windows
  - コンテナworkspace php-fpm nginx postgres
    -note: postgreSQLの場合、Docker For Macではでないvolumeのエラーが発生するケースがある。.shファイルの改行コード変更、docker-compose.ymlも変更が必要(20-06-20）。
 
