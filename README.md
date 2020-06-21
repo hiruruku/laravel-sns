@@ -18,8 +18,7 @@ mkdir laravel-sns
 cd laravel-sns
 git init
 ```
-### .gitignoreを置く
-　- laradockを加える
+
 ### laradock を参照する
 
 ```sh
@@ -34,7 +33,6 @@ git submodule add https://github.com/Laradock/laradock.git
 cd laradock
 cp env-example .env
 ```
-
 
 ## Dockerで開発環境起動
  - docker-composeにより各コンテナ立ち上げ。
@@ -54,7 +52,7 @@ cp env-example .env
     ~~~~~~~~~~~~~~~~~~~~
     pg-vol: ****/data
 ```  
-  - projectフォルダにもどり、`git add laradock`で参照先が変わる。
+  - projectフォルダにもどり、`git add laradock`で参照先が別branchのコミットに変わる。
  
 ```bash
 $ docker-compose up -d workspace php-fpm nginx postgres
