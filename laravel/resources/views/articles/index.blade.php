@@ -5,6 +5,7 @@
 <!-- titleセクションに、第2引数を埋め込む -->
 
 @section('content')
+@include('nav')
 <!-- contentセクション　-->
 <!-- 固定幅 -->
 <div class="container">　
